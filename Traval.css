@@ -113,9 +113,21 @@
 .taj1{
     padding: 40px 0;
 }
-.taj1 img{
+.img{
+    overflow: hidden;  
+
+}
+.img img{
      height: 254px;
-    width:400px; 
+     width:400px; 
+     transition: all 1s ease;
+
+    
+}
+.img img:hover{
+  
+    transform: scale(2,2);
+   
 }
 .img{
     height: 250px;
