@@ -128,11 +128,10 @@
   
     transform: scale(2,2);
    
-}
+}                                                                                                                                                           
 .img{
     height: 250px;
 }
-
 .taj1 .adventure{
     border:1px solid black;
     padding:30px;
@@ -201,10 +200,10 @@
 }
 .quick{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 300px;
-    /* padding:0 100px; */
+    padding:70px 100px;
     
 }
 .footers{
@@ -214,7 +213,7 @@
 }
 .quick1{
     color:beige;
-    
+    width: 30%;
 }
 .quick1 li{
     list-style: none;
@@ -269,5 +268,36 @@ i{
 }
 .quick2{
     margin: 10px 0;
-    padding-left: 25px;
+    padding-left: 0px;
+}
+.quick1 a{
+    font-size: 20px;
+}
+.quick1 a:hover{
+     padding-left: 50px;
+}
+.quick1 a{
+    display: inline-block;
+    font-size: 20px;
+    transition: all 1s ease;
+}
+.quick1 a:hover{
+     transition: 1s;
+}
+.quick2 a:hover{
+    padding-left: 100px ;
+}
+.quick2 a{
+    display: inline-block;
+    font-size: 20px;
+    transition: all 1s ease;
+}
+.quick2 a:hover{
+     transition: 1s;
+}
+.quick1 ol li a{
+    text-decoration: none;
+}
+.quick2 ol li a{
+    text-decoration: none;
 }
