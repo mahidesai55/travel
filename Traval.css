@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: roboto;
 }
 .travel1{
     display: flex;
@@ -126,7 +127,7 @@
 }
 .img img:hover{
   
-    transform: scale(2,2);
+    transform: scale(1.5,1.5);
    
 }                                                                                                                                                           
 .img{
