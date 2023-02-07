@@ -12,7 +12,7 @@
     align-items: center;
     padding-left: 80px;
     background-color: rgb(219,219,219);
-    position: fixed;
+    position: absolute;
     width:100%;
 } 
 .part1{
